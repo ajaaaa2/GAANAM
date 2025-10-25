@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 import 'package:musicapp/models/song.dart';
 import 'package:musicapp/providers/music_provider.dart';
@@ -15,7 +16,24 @@ import 'screens/add_song.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+  // Load environment variables from .env file
+  try {
+    await dotenv.load(fileName: ".env");
+    debugPrint('✅ Environment variables loaded successfully');
+  } catch (e) {
+    debugPrint('⚠️ Error loading .env file: $e');
+    debugPrint('Make sure .env file exists in the project root');
+  }
+
+  // Initialize Firebase with environment variables
+  try {
+    await Firebase.initializeApp(
+      options: DefaultFirebaseOptions.currentPlatform,
+    );
+    debugPrint('✅ Firebase initialized successfully');
+  } catch (e) {
+    debugPrint('❌ Firebase initialization error: $e');
+  }
 
   runApp(const MyApp());
 }
@@ -119,7 +137,7 @@ class _MyAppState extends State<MyApp> with WidgetsBindingObserver {
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'MusicApp',
+        title: dotenv.env['APP_NAME'] ?? 'MusicApp',
         theme: _appTheme,
         routes: {
           '/': (_) => const OnboardingScreen(),
