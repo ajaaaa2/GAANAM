@@ -52,13 +52,12 @@ A beautiful, feature-rich music streaming application built with Flutter and Fir
 
 ## 📸 Screenshots
 
-```
-<img width="367" height="797" alt="Screenshot 2025-10-25 160924" src="https://github.com/user-attachments/assets/ddac7d6f-c1e0-43a1-8a62-cdcce3e3112e" />
-<img width="373" height="811" alt="s2" src="https://github.com/user-attachments/assets/029db54e-da46-480f-b061-17f950004953" />
-<img width="358" height="786" alt="Screenshot 2025-10-25 161110" src="https://github.com/user-attachments/assets/6b76b0f0-4e5e-4998-85ff-f76b93cfe7f6" />
-<img width="368" height="782" alt="Screenshot 2025-10-25 161133" src="https://github.com/user-attachments/assets/3760f44e-8747-4144-99b3-b1fbaf87b7c0" />
-
-```
+<p align="center">
+  <img src="asset/screenshots/screen1.png" width="30%" />
+  <img src="asset/screenshots/screen2.png" width="30%" />
+  <img src="asset/screenshots/screen3.png" width="30%" />
+   <img src="asset/screenshots/screen4.png" width="30%" />
+</
 
 ## 🚀 Getting Started
 
