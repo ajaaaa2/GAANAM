@@ -52,12 +52,12 @@ A beautiful, feature-rich music streaming application built with Flutter and Fir
 
 ## 📸 Screenshots
 
-<p align="center">
-  <img src="asset/screenshots/screen1.png" width="30%" />
-  <img src="asset/screenshots/screen2.png" width="30%" />
-  <img src="asset/screenshots/screen3.png" width="30%" />
-  <img src="asset/screenshots/screen4.png" width="30%" />
-</p>
+## 📸 Screenshots
+
+| Home | Player | Playlist | Upload |
+|------|---------|-----------|---------|
+| ![Home](asset/screenshots/screen1.png) | ![Player](asset/screenshots/screen2.png) | ![Playlist](asset/screenshots/screen3.png) | ![Upload](asset/screenshots/screen4.png) |
+
 ## 🚀 Getting Started
 
 ### Prerequisites
