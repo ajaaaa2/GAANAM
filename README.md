@@ -57,7 +57,7 @@ A beautiful, feature-rich music streaming application built with Flutter and Fir
   <img src="asset/screenshots/screen2.png" width="30%" />
   <img src="asset/screenshots/screen3.png" width="30%" />
    <img src="asset/screenshots/screen4.png" width="30%" />
-</
+</p>
 
 ## 🚀 Getting Started
 
