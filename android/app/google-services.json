@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "168400676601",
+    "project_id": "gaanam-92468",
+    "storage_bucket": "gaanam-92468.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:168400676601:android:a87af2851da56ad0c8a428",
+        "android_client_info": {
+          "package_name": "com.example.musicapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaPmewPA5vY9EYVD7MO5Lu6cal4AS5yis"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
